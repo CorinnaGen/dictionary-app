@@ -6,7 +6,8 @@ function App() {
       <header className="App-header">
       </header>
       <h1>Dictionary</h1>
-      <input></input>
+      <input type="text" placeholder="Type..." autoFocus></input>
+      <input type="submit" value="Search" autoFocus></input>
     </div>
   );
 }
