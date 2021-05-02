@@ -1,14 +1,18 @@
 import './App.css';
+import SearchEngine from "./SearchEngine";
 
 function App() {
   return (
     <div className="App">
+      <div className="Container">
       <header className="App-header">
       </header>
       <h1>Dictionary</h1>
-      <input type="text" placeholder="Type..." autoFocus></input>
-      <input type="submit" value="Search" autoFocus></input>
-    </div>
+      <main>
+     <SearchEngine/></main>
+     <br></br>
+     <footer>Look at me!I appreciate advice and suggestions</footer>
+    </div></div>
   );
 }
 
