@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import axios from "axios";
 import "./SearchEngine.css";
 
 export default function SearchWord(){
@@ -6,8 +7,13 @@ let[keyWord, setkeyWord]= useState(null);
 
     function Search(event){
         event.preventDefault();
-        alert(`Searching for the meaning of ${keyWord}`);
+        let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyWord}`;
+        axios.get(apiUrl).then(handleResponse);
     }
+    function handleResponse(response){
+        console.log(response);
+    }
+
     function handleKeyWord(event){
         setkeyWord(event.target.value);
     }
