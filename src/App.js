@@ -11,7 +11,7 @@ function App() {
       <main>
      <SearchEngine/></main>
      <br></br>
-     <footer>Look at me!I appreciate advice and suggestions</footer>
+     <footer><a href="https://github.com/CorinnaGen/dictionary-app">Look at me!</a>I appreciate advice and suggestions</footer>
     </div></div>
   );
 }
