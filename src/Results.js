@@ -10,4 +10,4 @@ export default function showResults(props){
      })}
 </div>)
 } else{
-    return (<div className="noResults">We don't know what that means either</div>);}}
+    return null;}}
