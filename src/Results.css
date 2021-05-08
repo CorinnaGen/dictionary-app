@@ -1,6 +1,16 @@
+.Results section{
+  background:#b0757c;
+  box-sizing: border-box;
+  padding: 20px ;
+  border-radius: 10px ;
+  box-shadow: 2px 2px 2px ;
+}
 h2{
   font-family: 'Indie Flower', cursive;
   color:#d0baa8;
-  font-size: 25px;
+  font-size: 35px;
   padding: 20px 0;
+  text-align: left;
+  text-transform:capitalize;
+
 }

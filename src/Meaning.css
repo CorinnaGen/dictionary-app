@@ -1,0 +1,14 @@
+.meaning section{
+  box-sizing: border-box;
+  padding: 20px ;
+  border-radius: 10px ;
+  box-shadow: 2px 2px 2px ;
+}
+
+
+h3{font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color:#d0baa8;
+    text-transform:capitalize;
+    font-weight: 800px;
+}

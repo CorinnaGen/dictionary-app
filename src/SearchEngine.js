@@ -31,9 +31,11 @@ let[loaded, setLoaded] = useState(false);
     if(loaded){
     return(
         <div className="SearchEngine">
+            <section>
             <form onSubmit={handleSubmit}>
-             <input type="search" placeholder="Type..." autoFocus onChange={handleKeyWord}></input>
-      <input type="submit" value="Search" autoFocus></input></form>
+             <input type="search" placeholder="Type and press enter..." autoFocus onChange={handleKeyWord}></input>
+     </form>
+      </section>
       <Results results={results}/>
         </div>
     )}else{
