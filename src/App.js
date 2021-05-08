@@ -9,7 +9,7 @@ function App() {
       </header>
       <h1>Dictionary</h1>
       <main>
-     <SearchEngine/></main>
+     <SearchEngine defaultKeyword="fahrenheit"/></main>
      <br></br>
      <footer><a href="https://github.com/CorinnaGen/dictionary-app">Look at me!</a>I appreciate advice and suggestions</footer>
     </div></div>
