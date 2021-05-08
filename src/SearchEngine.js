@@ -4,7 +4,7 @@ import "./SearchEngine.css";
 import Results from "./Results";
 
 export default function SearchWord(){
-let[keyWord, setkeyWord]= useState(null);
+let[keyWord, setkeyWord]= useState("");
 let[results, setResults]= useState(null);
 
     function Search(event){
