@@ -1,6 +1,6 @@
 .SearchEngine section{
   background-color:#d0baa8;
-  box-sizing: border-box;
+  display: flex;
   padding: 20px ;
   margin-bottom: 15px;
   border-radius: 10px ;
