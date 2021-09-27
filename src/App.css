@@ -1,5 +1,6 @@
 body {background-image: url(background.jpg);
   background-repeat: inherit;
+  display: flex;
  }
 
 h1{
@@ -9,6 +10,7 @@ h1{
   font-size: 55px;
   font-family: 750px;
   margin-bottom: 50px;
+  border: 2px black;
   
 }
 

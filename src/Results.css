@@ -1,4 +1,6 @@
 .Results section{
+  display: flex;
+  justify-content: center;
   background:#b0757c;
   box-sizing: border-box;
   padding: 20px ;
