@@ -6,11 +6,13 @@ import "./Meaning.css";
 
 export default function showMeaning(props){
     return(
-    <div className= "meaning"><section>
+    <div className= "Meaning"><section>
         <h3>{props.meaning.partOfSpeech}</h3>
         {props.meaning.definitions.map(function (definition, index){
-            return(<div key={index}>
-                <strong></strong>{definition.definition}
+            return(<div  key={index}>
+                <p>
+                {definition.definition}
+                </p>
                 <br/><br/>
                 <Examples example={definition.example}/>
                 <br/><br/>

@@ -12,7 +12,10 @@ export default function showResults(props){
     </div>
 })}</section>
     {props.results.meanings.map(function(meaning, index){
-        return (<div key={index}> <Meaning meaning={meaning}/></div>);
+        return (
+        <div key={index}> 
+        <Meaning meaning={meaning}/>
+        </div>);
      })}
 </div>)
 } else{

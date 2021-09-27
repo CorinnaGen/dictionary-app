@@ -47,8 +47,10 @@ let[photos, setPhotos]= useState(null);
              <input type="search" placeholder="Type and press enter..." autoFocus onChange={handleKeyWord}></input>
      </form>
       </section>
+      <div className= "Results">
       <Results results={results}/>
       <Photos photos={photos}/>
+      </div>
         </div>
     )}else{
         load();

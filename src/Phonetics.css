@@ -1,4 +1,8 @@
+.Phonetics{
+    display: flex;
+}
+
 .Phonetics a{
     text-align: left;
-    color: lightcoral;
+    color: white;
 }

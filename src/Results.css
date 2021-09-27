@@ -1,8 +1,7 @@
 .Results section{
   display: flex;
-  justify-content: center;
+  flex-flow: column wrap;
   background:#b0757c;
-  box-sizing: border-box;
   padding: 20px ;
   border-radius: 10px ;
   box-shadow: 2px 2px 2px ;

@@ -1,5 +1,6 @@
-.meaning section{
-  box-sizing: border-box;
+.Meaning section{
+  display: flex;
+  flex-flow: column wrap;
   padding: 20px ;
   border-radius: 10px ;
   box-shadow: 2px 2px 2px ;
