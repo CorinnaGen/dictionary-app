@@ -10,10 +10,11 @@ function App() {
       </header>
       <h1>Dictionary</h1>
       <main>
-        <div className="search">
+        <div className="container">
      <SearchEngine defaultKeyword="serendipity"/>
      </div>
      </main>
+
      <footer><a href="https://github.com/CorinnaGen/dictionary-app">Look at me!</a></footer>
     </div></div>
   );

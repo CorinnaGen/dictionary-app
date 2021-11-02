@@ -4,10 +4,10 @@ import Results from "./Results";
 import Photos from "./Photos";
 
 export default function SearchWord(props){
-let[keyWord, setkeyWord]= useState(props.defaultKeyword);
-let[results, setResults]= useState(null);
-let[loaded, setLoaded] = useState(false);
-let[photos, setPhotos]= useState(null);
+const[keyWord, setkeyWord]= useState(props.defaultKeyword);
+const[results, setResults]= useState(null);
+const[loaded, setLoaded] = useState(false);
+const[photos, setPhotos]= useState(null);
 
     function Search(){
         let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyWord}`;
@@ -41,15 +41,16 @@ let[photos, setPhotos]= useState(null);
     if(loaded){
     return(
         <div className="SearchEngine">
-            <section>
             <form className="mb-3" onSubmit={handleSubmit}>
             <label htmlFor="exampleFormControlInput1" className="form-label" aria-label="Search a word">Search a word!</label>
              <input type="search" placeholder="Type and press enter..." autoFocus onChange={handleKeyWord}></input>
      </form>
-      </section>
+      
       <div className= "list-group list-group-flush">
       <Results results={results}/>
+      
       <Photos photos={photos}/>
+    
       </div>
         </div>
     )}else{

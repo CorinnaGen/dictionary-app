@@ -11,11 +11,10 @@ h1{
 footer{
   display: flex;
   justify-content: flex-end;
-  font-family: 'Indie Flower', cursive;
-  font-size: 20px;
+  font-size: 15px;
   color:#d0baa8;
 }
 
 a {
-  color: white;
+  color: black;
 }
