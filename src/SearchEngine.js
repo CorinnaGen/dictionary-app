@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import axios from "axios";
-import "./SearchEngine.css";
 import Results from "./Results";
 import Photos from "./Photos";
 
@@ -43,11 +42,12 @@ let[photos, setPhotos]= useState(null);
     return(
         <div className="SearchEngine">
             <section>
-            <form onSubmit={handleSubmit}>
+            <form className="mb-3" onSubmit={handleSubmit}>
+            <label htmlFor="exampleFormControlInput1" className="form-label" aria-label="Search a word">Search a word!</label>
              <input type="search" placeholder="Type and press enter..." autoFocus onChange={handleKeyWord}></input>
      </form>
       </section>
-      <div className= "Results">
+      <div className= "list-group list-group-flush">
       <Results results={results}/>
       <Photos photos={photos}/>
       </div>
