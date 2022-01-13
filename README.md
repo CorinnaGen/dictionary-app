@@ -1,19 +1,23 @@
-# Weather App 
+# Dictionary app
 
-Final project for the SheCodes Plus Workshop.
+Final project for the SheCodes React workshop
 
 ## Stack
-This project has been built using:
 
-HTML/CSS/JS
-It uses the OpenWeather Api
-It has been deployed with netlify: https://amazing-kepler-4e2574.netlify.app/
+This project has been built using:
+- React
+- It uses 2 external APIs, Pexel for the images and the free dictionary api.
+- It has been deployed with netlify: https://hopeful-mirzakhani-1ad530.netlify.app/
 
 ### Libraries
-Axios
-Bootstrap
+
+- Axios
+- Bootstrap
 
 ### Contents
-You can search your city and see the weather for the day, the next four hours and the next four days. 
-You can click on the current position botton and avoid searching! You can check the temperature both in Celsius or Fahrenheit.
 
+Search any word and you will get its meaning, synonims, images related and listenin to its pronunciation! 
+
+
+### Setup
+`cd client` and run `npm install` or `yarn` to install dependencies related to React, then `npm start`.
